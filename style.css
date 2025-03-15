@@ -246,3 +246,103 @@ body {
   margin-left: -1vw;
   border-radius: 1vw;
 }
+.content-1:last-child {
+  height: 25vw; /* Increase height */
+}
+.content-1:last-child .h-2 {
+  width: 100%; /* Adjust as needed */
+  width: 12vw; /* Increase width */
+}
+.number-growth {
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 2vw;
+  justify-content: space-evenly;
+}
+.number-growth h3 {
+  font-size: 2.5rem;
+  color: #043a53;
+}
+.number-growth p {
+  color: #1e1e1e;
+  margin-left: 1vw;
+}
+.number-growth div:nth-child(2) p {
+  margin-left: 0vw;
+  margin-top: 1vw;
+}
+.number-growth div:nth-child(3) p {
+  margin-left: 0vw;
+  margin-top: 1vw;
+}
+.number-growth div:nth-child(4) p {
+  margin-left: 0vw;
+  margin-top: 1vw;
+}
+.number-growth div:nth-child(1) p {
+  margin-top: 1vw;
+}
+.aboutFounder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12vw;
+  gap: 1vw;
+}
+.aboutFounder h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.aboutFounder p {
+  font-weight: lighter;
+  width: 19vw;
+}
+.founder {
+  display: flex;
+  gap: 8vw;
+  background-color: white;
+}
+.founder img {
+  height: 40vw;
+  width: 40vw;
+  margin-top: 2vw;
+}
+.founder button {
+  width: 20vw;
+  height: 3vw;
+  color: #ffffff;
+  background-color: #043a53;
+  border-radius: 2vw;
+}
+.founder button :nth-child(2) {
+  border-radius: 50%;
+  background-color: #043a53;
+}
+.founder-icon img {
+  position: absolute;
+ margin-top: 17vw;
+  left: 81%;
+  transform: translateX(-50%); /* Center horizontally */
+  width: 6vw; /* Adjust width */
+  height: 10vw;
+  z-index: -1; /* Send it behind */
+  
+}
+.circle-img{
+  height: 15vw;
+  width: 15vw;
+  margin-left: 53vw;
+  position: relative;
+  bottom: 13vw;
+ 
+ 
+  
+   
+}
+.container-5{
+  margin-top: 0;  /* Remove any extra space */
+  padding-top: 0;
+  display: flex;
+}
