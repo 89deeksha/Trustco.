@@ -342,7 +342,107 @@ body {
    
 }
 .container-5{
-  margin-top: 0;  /* Remove any extra space */
+  margin-top: -15vw;  /* Remove any extra space */
   padding-top: 0;
   display: flex;
+  background-color: #FFFFFF;
+}
+.container-5 img{
+  height: 37vw;
+  width: 31vw;
+}
+.container-5 h2{
+  width: 25vw;
+  font-size: 2rem;
+  
+}
+.container-5 p{
+  width: 28vw;
+  margin-top: 3vw;
+}
+.container-5 button{
+  height: 3vw;
+  width: 10vw;
+  margin-top: 25vw;
+  margin-left: -23vw; /* Move the button further left */
+  position: relative;
+  left: -5vw; 
+  border-radius: 2vw;
+  background-color: #043A53;
+  color: #FFFFFF;
+  
+}
+.container-5 .para-4{
+  margin-top: 7vw;
+  margin-left: 10vw;
+}
+.container-5 h2 span{
+  color: #92A7B0;
+}
+.container-5 img:nth-of-type(2) {
+  height: 14vw;
+  width: 14vw;
+  margin-top: 17vw;
+  margin-left: -7vw;
+}
+.container-6{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15vw;
+  margin-top: 3vw;
+  gap: 5vw;
+ bottom: 3vw;
+ 
+
+}
+
+.container-6 .para-5{
+  
+  display: flex;
+  gap: 30vw;
+
+}
+.container-6 .card{
+  height: 16vw;
+  width: 30vw;
+  background-color: #FFFFFF;
+  border-radius: 2vw;
+}
+.container-6 .cards{
+display: flex;
+gap: 3vw;
+}
+.container-6 img{
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+.container-6 p:nth-of-type(3){
+  width: 10vw;
+}
+.bio{
+  display: flex;
+  
+}
+.bio-1{
+ margin-top: 3vw;
+ margin-left: 1vw;
+ gap: 1vw;
+}
+.container-6 .card p{
+width: 23vw;
+margin-left: 1vw;
+font-weight: lighter;
+margin-top: 1vw;
+}
+.bio-1 h5{
+  margin-left: 1vw;
+}
+.crousels{
+  height: 1vw;
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 7vw auto 0; /* Centers it horizontally with auto */
 }
