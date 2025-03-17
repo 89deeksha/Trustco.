@@ -587,20 +587,30 @@ display: flex;
 
 margin-left: 13vw;
 }
-footer p{
-  width: 18vw;
-  margin-left: 10vw;
-  margin-top: 3vw;
-  font-weight: lighter;
-}
+
 footer{
   display: flex;
 }
 .home-footer{
-  margin-top: 2vw;
-  margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vw;
+  gap:4vw
+  
+  
 }
 
+.para-7{
+  width: 20vw;
+  margin-left: 10vw;
+  margin-top: 3vw;
+  font-weight: lighter;
+}
+.footer-nav{
+  display: flex;
+  gap: 13vw;
+  margin-left: 8vw;
+}
 
 
 
