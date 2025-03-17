@@ -446,3 +446,127 @@ margin-top: 1vw;
   position: relative;
   margin: 7vw auto 0; /* Centers it horizontally with auto */
 }
+.container-7{
+  height: 60vw;
+  
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  
+
+}
+.container-7 h1{
+  height: 5vw;
+  margin-left: 8vw;
+margin-top: 10vw;
+font-size: 3vw;
+font-weight: 500;
+}
+.container-7 h1 span{
+  color: #043A53;
+}
+.para-6{
+  display: flex;
+  gap: 34vw;
+}
+.container-7 p{
+margin-top: 10vw;
+}
+.cards-2{
+  display: flex;
+  
+  margin-top: 5vw;
+  justify-content: space-evenly;
+}
+.vertical-card{
+  height: 28vw;
+  width: 20vw;
+  background-color:#F2F5F6;
+  margin-left: -5vw;
+  border-radius: 1vw;
+ 
+
+}
+.cards-2 img{
+  height: 13vw;
+  width: 20vw;
+}
+.vertical-card p:nth-child(2),
+.vertical-card h4 {
+  position: relative;
+  top: -9vw;
+  width: 15vw;
+  margin-left: 1vw;
+  
+}
+.vertical-card h4 {
+  margin-top: 1vw;
+}
+.vertical-card p:nth-child(4),
+.vertical-card h5 {
+  position: relative;
+  top: -18vw;
+  width: 15vw;
+  margin-left: 1vw;
+  
+}
+.vertical-card h5{
+  margin-top: 1vw;
+}
+.vertical-card p:nth-child(4){
+  font-weight: lighter;
+}
+.vertical-card p:nth-child(2) span{
+  font-weight: lighter;
+}
+.vertical-card:first-child p:nth-child(2) {
+  display: flex;  /* Ensures inline elements stay in a row */
+  flex-wrap: nowrap; /* Prevents wrapping */
+  justify-content: flex-start; /* Aligns text properly */
+  white-space: nowrap; /* Ensures text stays in a single line */
+  width: 100%; /* Ensures it occupies the full width */
+  overflow: hidden; /* Hides overflowing text */
+  text-overflow: ellipsis; /* Adds "..." if the text overflows */
+}
+
+.vertical-card:first-child p:nth-child(2) span:first-child {
+  display: inline-block; /* Ensures width is respected */
+  max-width: 100%; /* Prevents it from exceeding parent width */
+  overflow: hidden; /* Hides overflow */
+  text-overflow: ellipsis; /* Ensures long text is truncated */
+  white-space: nowrap; /* Ensures it doesn't wrap */
+}
+.container-8{
+  height: 73.8vh;
+  display: flex;
+  
+ background-color: #12141D;
+}
+.container-8 h1{
+  width: 38vw;
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 4vw;
+  margin-left: 6vw;
+}
+.container-8 button{
+  background-color: #F0B73F;
+  color: #FFFFFF;
+  height: 4vw;
+  width: 17vw;
+  border-radius: 2vw;
+  font-size: 1.2rem;
+  margin-top: 5vw;
+  margin-left: 6vw;
+}
+.container-8 h6{
+  color: #FFFFFF;
+  margin-top: 2vw;
+  margin-left: 7vw;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+
+
