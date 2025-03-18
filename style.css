@@ -569,7 +569,7 @@ margin-top: 10vw;
 }
 .footer{
   height: 70vh;
-  color: #FFFFFF;
+  
   display: flex;
   
 }
@@ -590,6 +590,7 @@ margin-left: 13vw;
 
 footer{
   display: flex;
+  background-color: #FFFFFF;
 }
 .home-footer{
   display: flex;
@@ -611,6 +612,86 @@ footer{
   gap: 13vw;
   margin-left: 8vw;
 }
+.footer-card{
+  background-color:#F2F5F6 ;
+  height: 40vh;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+.card-f{
+  height: 13vw;
+  width: 35vw;
+  border: 1px solid gray;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.card-f h5:nth-child(1){
+  margin-top: -1vw;
+  font-weight: lighter;
+  margin-left: 5vw;
+  
+  
+}
+.card-f h5:nth-child(1) span{
+  color: #6439FF;
+  
+}
+.para-8 h6{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+  font-weight:lighter ;
+}
+.para-8 h5::after {
+  content: "";
+  display: block;
+  width: 35%; /* Adjust width of underline */
+  height: 2px; /* Thickness of underline */
+  background-color: rgb(194, 189, 189); /* Color of underline */
+  margin: auto; /* Centers underline */
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 1.5vw; /* Space from text to underline */
+}
+.footer-img{
+  display: flex;
+  height: 4vw;
+  width: 4vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  gap: 1vw;
+}
+.footer-card::after{
+  text-decoration: underline;
+}
+.bottom{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3vw;
+  height: 10vh;
+  background-color:#d9dada;
+  color: #92a5ae;
+  font-weight: lighter;
+  border-top: 1px solid black; 
+}
+.bottom div:last-child {
+  display: flex;
+  align-items: center; /* Keeps items aligned */
+  gap: 5px; /* Adds space between text and image */
+}
+
+.bottom img {
+  margin-top: 5px; /* Adjust only the image */
+}
+
 
 
 
