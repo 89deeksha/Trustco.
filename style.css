@@ -1131,7 +1131,7 @@ display: flex;
 justify-content: center;
 text-align: center;
         width: 80vw;
-        margin-left:8vw ;
+        margin-left:-1vw ;
   }
   .container-6 {
     display: flex;
@@ -1141,14 +1141,17 @@ text-align: center;
     gap: 5vw;
     bottom: 3vw;
   }
-
+.para-5 p{
+  display: none;
+}
   .container-6 .para-5 {
     display: flex;
-    gap: 30vw;
+    text-align: center;
+    margin-left: -5vw;
   }
   .container-6 .card {
-    height: 16vw;
-    width: 30vw;
+    height: 30vh;
+    width: 60vw;
     background-color: #ffffff;
     border-radius: 2vw;
    
@@ -1158,8 +1161,8 @@ text-align: center;
     gap: 3vw;
   }
   .container-6 img {
-    margin-left: 1vw;
-    margin-top: 1vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
   }
   .container-6 p:nth-of-type(3) {
     width: 10vw;
@@ -1171,17 +1174,229 @@ text-align: center;
   .bio-1 {
     margin-top: 3vw;
     margin-left: 1vw;
-    gap: 1vw;
-    display: flex;
+   display: flex;
+   flex-direction: column;
+   
+   
    
   }
-  .container-6 .card p {
-    width: 23vw;
-    margin-left: 1vw;
+  .container-6 .card p:nth-of-type(1)
+ {
+    width: 53vw;
+    margin-left: 3vw;
     font-weight: lighter;
-    margin-top: 1vw;
-  }
+    margin-top: 10vw;
+    text-align: center;
+}
+
   .bio-1 h5 {
     margin-left: 1vw;
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+  .bio-1 p {
+    margin-left: 0vw; /* Shift "Managing Director" left */
+    font-size: 0.9rem; /* Adjust size if needed */
+    white-space: nowrap;
+}
+  .crousels-1{
+    display: none;
+  }
+  .crousels {
+    height: 1vh;
+    width: 30vw;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  margin-right: auto;
+   
+    
+  
+    
+  }
+  .crousel-parent{
+   display: flex;
+   
+           margin-left: 18vw;
+  }
+  .bio img{
+    height: 6vh;
+    width: 10vw;
+  }
+  .bio-1 p{
+    margin-left: 4vw;
+  }
+  .container-7 {
+    height: 60vw;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .container-7 h1 {
+    height: 5vw;
+    margin-left: 8vw;
+    margin-top: 10vw;
+    font-size: 3vw;
+    font-weight: 500;
+  }
+  .container-7 h1 span {
+    color: #043a53;
+  }
+  .para-6 {
+    display: flex;
+    gap: 34vw;
+  }
+  .container-7 p {
+    margin-top: 10vw;
+  }
+  .cards-2 {
+    display: flex;
+
+    margin-top: 5vw;
+    justify-content: space-evenly;
+  }
+  .vertical-card {
+    min-height: auto;
+    width: 60%;
+    background-color: #f2f5f6;
+    margin-left: -10vw;
+    border-radius: 1vw;
+    padding: 10vw;
+  }
+  .cards-2 img {
+    height: 13vw;
+    width: 20vw;
+  }
+  .vertical-card p:nth-child(2),
+  .vertical-card h4 {
+    position: relative;
+    top: -9vw;
+    
+    margin-left: 1vw;
+  }
+  .vertical-card h4 {
+    margin-top: 1vw;
+    
+  }
+  .vertical-card img {
+    width: 100%; /* Make images responsive */
+    height: 50%; /* Maintain aspect ratio */
+  }
+  .vertical-card p:nth-child(4),
+  .vertical-card h5 {
+    position: relative;
+    top: -18vw;
+    width: 40vw;
+    margin-left: 1vw;
+  }
+  .vertical-card h5 {
+    margin-top: 1vw;
+  }
+  .vertical-card p:nth-child(4) {
+    font-weight: lighter;
+  }
+  .vertical-card p:nth-child(2) span {
+    font-weight: lighter;
+  }
+  .vertical-card:first-child p:nth-child(2) {
+    display: flex; /* Ensures inline elements stay in a row */
+    flex-wrap: nowrap; /* Prevents wrapping */
+    justify-content: flex-start; /* Aligns text properly */
+    white-space: nowrap; /* Ensures text stays in a single line */
+    width: 100%; /* Ensures it occupies the full width */
+    overflow: hidden; /* Hides overflowing text */
+    text-overflow: ellipsis; /* Adds "..." if the text overflows */
+  }
+
+  
+  .vertical-card:first-child p:nth-child(2) span:first-child {
+    display: inline-block; /* Ensures width is respected */
+    max-width: 100%; /* Prevents it from exceeding parent width */
+    overflow: hidden; /* Hides overflow */
+    text-overflow: ellipsis; /* Ensures long text is truncated */
+    white-space: nowrap; /* Ensures it doesn't wrap */
+  }
+  .container-8 {
+    height: 73.8vh;
+    display: flex;
+
+    background-color: #12141d;
+  }
+  .container-8 h1 {
+    width: 78vw;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 80vw;
+    margin-left: 13vw;
+    text-align: center;
+  }
+  .container-8 button {
+    background-color: #f0b73f;
+    color: #ffffff;
+    height: 5vh;
+    width: 50vw;
+    border-radius: 2vw;
+    font-size: 1.2rem;
+    margin-top: 5vw;
+    margin-left: 25vw;
+  }
+  .container-8 h6 {
+    color: #ffffff;
+    margin-top: 2vw;
+    margin-left: 32vw;
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+  .footer {
+    height: 70vh;
+
+    display: flex;
+  }
+  .vertical-card :nth-child(2){
+    width: 70%;
+  }
+  .container-8 img{
+    height: 18vh;
+    width: 30vw;
+    margin-top: 56vh;
+    margin-left: -50vw;
+  }
+  .footer {
+    height: 10vh;
+
+    display: flex;
+  }
+  .footer img {
+    height: 3vh;
+    width: 10vw;
+    margin-top: 9vw;
+    margin-left: -4vw;
+  }
+  .footer h2 {
+    color: #043a53;
+    margin-left: 4vw;
+    font-size: 3rem;
+    margin-top: 6vw;
+  }
+  .foot-1 {
+    margin-top: 3vw;
+    display: flex;
+
+    margin-left: 40vw;
+  }
+
+  footer {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+  }
+  .footer-nav{
+    display: flex;
+    
+  }
+  .para-7 p:nth-of-type(1){
+    align-items: center;
   }
 }
